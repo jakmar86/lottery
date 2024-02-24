@@ -1,4 +1,27 @@
 # lottery
-Lottery numbers pick and draw simulator.
+Lottery Number Generator
 
-For each iteration 6 unique numbers between 1 and 59 are chosen at random to create the players "picks" for the draw. The "draw" is then run by choosing 6 unique numbers between 1 and 59, once complete the "picks" are compared to the "draw" and if it matches, the loop exits because the jackpot is won, the rest of the time,the draw count is increased by 1 and the next iteration begins.
+This Python script simulates a lottery draw by generating random numbers. It includes the following functionalities:
+
+picknumbers(): Generates a list of 6 unique random numbers between 1 and 59.
+
+newdraw(): Simulates a new lottery draw by generating 6 random numbers.
+
+checknumbers(): Continuously generates new draws until a winning ticket is found.
+
+Usage
+Run the script using Python:
+python lottery_numbers.py
+
+Follow the prompts to select the type of lottery game (e.g., Cash Five, Powerball, Mega Millions) and the number of tickets to generate.
+The script will output individual text files for each lottery game with the generated numbers.
+For Powerball, you can also analyze winning number history and prevent previously winning numbers from being randomly generated.
+
+Example Output
+Draw 1: No Jackpot
+Draw 2: No Jackpot
+...
+Draw 100: No Jackpot
+Jackpot!
+
+Feel free to customize and use this script for your own lottery fun!
