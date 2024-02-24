@@ -13,10 +13,6 @@ This Python script simulates a lottery draw by generating random numbers. It inc
 
         python lottery_numbers.py
 
-3.  Follow the prompts to select the type of lottery game (e.g., Cash Five, Powerball, Mega Millions) and the number of tickets to generate.
-4.  The script will output individual text files for each lottery game with the generated numbers.
-5.  For Powerball, you can also analyze winning number history and prevent previously winning numbers from being randomly generated.
-
 ## Example Output
 ```Draw 1: No Jackpot
 Draw 2: No Jackpot
